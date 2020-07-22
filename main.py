@@ -15,8 +15,7 @@ def triangle(length, color):
   while x <3:
     bob.forward(int(length))
     bob.right(120)
-    x+=1
-  bob.end_fill()
+    x = b.end_fill()
 
 input_shape = input("what shape do you want to draw?")
 input_length = input("choose how big: ")
